@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+</head>
+<body>
+    <h1>freecodecamp kartkowka</h1>
+    <p>Mam nadzieje ze nie bedzie 1</p>
+    <fieldset> 
+        <label for="name">Name <input id="name" name="name" type="text" required /></label>
+        <label for="email">Email <input id="email" name="email" type="text" required /></label>
+        <label for="age">Age (optional) <input id="age" name="age" type="number" /></label>
+    </fieldset>
+    <fieldset>
+        <legend>What is your role</legend>
+        <select id="role" name="role">
+            <option value="">select current role</option>
+            <option value="1">Git</option>
+            <option value="2">Sigma</option>
+            <option value="3">Splatos</option>
+            <option value="4">Sketusz</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Would you recommend freecodecamp?</legend>
+        <label for="yes">Yes<input id="yes" name="yes" type="radio" /></label>
+        <label for="mayby">Mayby<input id="mayby" name="mayby" type="radio" /></label>
+        <label for="no">No<input id="no" name="no" type="radio" /></label>
+    </fieldset>
+    <fieldset>
+        <legend>What is you favourite feature of freecodecamp?</legend>
+        <select id="feature" name="feature">
+            <option value="">select current role</option>
+            <option value="1">Git</option>
+            <option value="2">Sigma</option>
+            <option value="3">Splatos</option>
+            <option value="4">Sketusz</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>What would you like to see improved? (check all that apply)</legend>
+        <label for="FEP">Front-end Projects<input id="FEP" name="FEP" type="checkbox" /></label>
+        <label for="BEP">Back-end Projects<input id="BEP" name="BEP" type="checkbox" /></label>
+        <label for="Challenges">Challenges<input id="Challenges" name="Challenges" type="checkbox" /></label>
+        <label for="Videos">Videos<input id="Videos" name="Videos" type="checkbox" /></label>
+    </fieldset>
+    <fieldset>
+        <label for="sugest">Any comments or suggestions? <input id="sugest" name="sugest" type="text" required /></label>
+    </fieldset>
+    <button>SUBMIT</button>
+</body>
+</html>
